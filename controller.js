@@ -65,9 +65,7 @@ $(document).ready(function () {
 					//Resposta errada	
 					$(stage).append('<div class="feedback2">ERRADO</div>');
 				}
-				setTimeout(function () {
-					changeQuestion();
-				}, 1000);
+				setTimeout(changeQuestion, 1000);
 			}
 		})
 	}
@@ -95,13 +93,28 @@ $(document).ready(function () {
 			questionLock = false;
 		});
 	}
-
+	
 	//Mostra o último slide
 	function displayFinalSlide() {
+		const porc = ((score / numberOfQuestions) * 100).toFixed(2);
+		const porcSpan = `<span style="color: ${porc >= '50' ? '#090' : '#C30'}">${porc}%</span>`;
+		
 		$(stage).append(`<div class="finalSlide">
-			Você completou o Quiz!<br><br>
-			Total de perguntas: ${numberOfQuestions}<br>
-			Respostas corretas: ${score}
+		Você completou o Quiz!<br><br>
+		Total de perguntas: ${numberOfQuestions}<br>
+		Respostas corretas: ${score} (${porcSpan})<br><br>
+		<span id="retry">Tentar novamente!</span>
 		</div>`);
+		
+		$('#retry').click(restart);
+	}
+
+	// Recomeça o quiz
+	function restart() {
+		questionNumber = 0;
+		score = 0;
+		questionBank = shuffleThisBitch(questionBank);
+
+		changeQuestion();
 	}
 });
