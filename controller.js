@@ -20,9 +20,7 @@ $(document).ready(function () {
 
 			questions.push(shuffledQuestion);
 		}
-		console.log(questionBank);
 		questionBank = shuffleThisBitch(questions);
-		console.log(questionBank);
 		numberOfQuestions = questionBank.length;
 
 		displayQuestion();
