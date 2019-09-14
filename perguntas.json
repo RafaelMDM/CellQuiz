@@ -1,53 +1,66 @@
-{"quizlist":[
-  
-	{
-	"question":"img1.png",
-	"questionTxt":"A imagem corresponde a: ",
-	"option1":"Hipocromia",
-	"option2":"Anisocitose",
-	"option3":"Policromasia",
-	"option4":"Hipercromia"
-	},
-	{
-	"question":"img2.png",
-	"questionTxt":"A imagem corresponde a: ",
-	"option1":"Eritroblasto Ortocromático",
-	"option2":"Eritroblasto Policromático",
-	"option3":"Eritroblasto Basófilo",
-	"option4":"Eritroblasto"
-	},
-	{
-	"question":"img3.png",
-	"questionTxt":"A imagem corresponde a: ",
-	"option1":"Codócito",
-	"option2":"Dacriócito",
-	"option3":"Drepanócito",
-	"option4":"Esquizócito"
-	},
-	{
-	"question":"img4.png",
-	"questionTxt":"A imagem corresponde a: ",
-	"option1":"Rouleaux Eritrocitário",
-	"option2":"Hemácias Cruzadas",
-	"option3":"Crioaglutinação",
-	"option4":"Roseta de Hemácias"
-	},
-	{
-	"question":"img5.png",
-	"questionTxt":"A imagem corresponde a: ",
-	"option1":"Eritroblasto Ortocromático",
-	"option2":"Eritroblasto Basófilo",
-	"option3":"Eritroblasto Policromático",
-	"option4":"Linfócito Atípico"
-	},
-	{
-	"question":"img6.png",
-	"questionTxt":"A imagem corresponde a: ",
-	"option1":"Policromasia",
-	"option2":"Anisocitose",
-	"option3":"Hipercromia",
-	"option4":"Hipocromia"
-	}
+{
+	"quizlist": [
 
-]
+		{
+			"question": "img1.png",
+			"questionTxt": "A imagem corresponde a: ",
+			"options": [
+				"Hipocromia",
+				"Anisocitose",
+				"Policromasia",
+				"Hipercromia"
+			]
+		},
+		{
+			"question": "img2.png",
+			"questionTxt": "A imagem corresponde a: ",
+			"options": [
+				"Eritroblasto Ortocromático",
+				"Eritroblasto Policromático",
+				"Eritroblasto Basófilo",
+				"Eritroblasto"
+			]
+		},
+		{
+			"question": "img3.png",
+			"questionTxt": "A imagem corresponde a: ",
+			"options": [
+				"Codócito",
+				"Dacriócito",
+				"Drepanócito",
+				"Esquizócito"
+			]
+		},
+		{
+			"question": "img4.png",
+			"questionTxt": "A imagem corresponde a: ",
+			"options": [
+				"Rouleaux Eritrocitário",
+				"Hemácias Cruzadas",
+				"Crioaglutinação",
+				"Roseta de Hemácias"
+			]
+		},
+		{
+			"question": "img5.png",
+			"questionTxt": "A imagem corresponde a: ",
+			"options": [
+				"Eritroblasto Ortocromático",
+				"Eritroblasto Basófilo",
+				"Eritroblasto Policromático",
+				"Linfócito Atípico"
+			]
+		},
+		{
+			"question": "img6.png",
+			"questionTxt": "A imagem corresponde a: ",
+			"options": [
+				"Policromasia",
+				"Anisocitose",
+				"Hipercromia",
+				"Hipocromia"
+			]
+		}
+
+	]
 }
