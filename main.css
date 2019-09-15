@@ -30,6 +30,14 @@ body {
 	position: absolute;
 }
 
+#questionCounter {
+	font-size: 15px;
+	color: #AAA;
+	margin: auto;
+	padding-top: 5px;
+	width: 800px;
+}
+
 .questionText {
 	font-size: 27px;
 	color: #FFF;

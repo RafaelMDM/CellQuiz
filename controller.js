@@ -43,6 +43,7 @@ $(document).ready(function () {
 		} = questionBank[questionNumber];
 
 		const correctId = options.indexOf(correctOption) + 1;
+		$('#questionCounter').html(`Questão ${questionNumber + 1} de ${numberOfQuestions}`);
 
 		$(stage).append(`<div class="questionImage"><img src="img/${question}"</div>
 		<div class="questionText">${questionTxt}</div>
@@ -109,7 +110,7 @@ $(document).ready(function () {
 
 	// Recomeça o quiz
 	function restart() {
-		questionNumber = 0;
+		questionNumber = -1;
 		score = 0;
 		questionBank = shuffleThisBitch(questionBank);
 
