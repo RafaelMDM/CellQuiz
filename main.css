@@ -38,6 +38,7 @@ body {
 .option {
 	width: 400px;
 	height: 30px;
+	line-height: 30px;
 	margin: 15px;
 	font-size: 18px;
 	color: #FFFFFF;
