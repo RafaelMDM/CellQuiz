@@ -44,14 +44,12 @@ $(document).ready(function () {
 
 		const correctId = options.indexOf(correctOption) + 1;
 
-		$(stage).append(`
-			<div class="questionImage"><img src="img/${question}"</div>
-			<div class="questionText">${questionTxt}</div>
-			<div id="1" class="option">${options[0]}</div>
-			<div id="2" class="option">${options[1]}</div>
-			<div id="3" class="option">${options[2]}</div>
-			<div id="4" class="option">${options[3]}</div>
-		`);
+		$(stage).append(`<div class="questionImage"><img src="img/${question}"</div>
+		<div class="questionText">${questionTxt}</div>
+		<div id="1" class="option">${options[0]}</div>
+		<div id="2" class="option">${options[1]}</div>
+		<div id="3" class="option">${options[2]}</div>
+		<div id="4" class="option">${options[3]}</div>`);
 
 		$('.option').click(function () {
 			if (!questionLock) {
